@@ -1,6 +1,6 @@
 # Mono2Stereo: A Benchmark and Empirical Study for Stereo Conversion
 
-
+ <img src="assets/imgs/logo.png" alt="logo" width="200px"> 
 
 
 <a href="https://song2yu.github.io/"><sup>1</sup>Songsong Yu</a> |
