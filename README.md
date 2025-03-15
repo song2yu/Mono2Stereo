@@ -14,5 +14,9 @@
 <a href="https://scholar.google.com/citations?user=zJvrrusAAAAJ&hl=zh-CN&oi=ao"><sup>2</sup>Zhongang Qi</a> |
 <a href="https://scholar.google.com/citations?user=4oXBp9UAAAAJ&hl=zh-CN&oi=ao"><sup>2</sup>Ying Shan</a> |
 <a href="https://scholar.google.com/citations?user=D3nE0agAAAAJ&hl=zh-CN&oi=ao"><sup>1</sup>Huchuan Lu</a>
+<br>
+<sup>1</sup>Dalian University of Technology 
+<sup>2</sup>ARC Lab, Tencent PCG
+<sup>3</sup>The Hong Kong University of Science and Technology (Guangzhou)
 
 stereo conversion
