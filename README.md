@@ -5,7 +5,7 @@
  <a href='https://arxiv.org/abs/2409.02095'><img src='https://img.shields.io/badge/arXiv-2409.02095-b31b1b.svg'></a> &nbsp;
  <a href='https://mono2stereo-bench.github.io/'><img src='https://img.shields.io/badge/Project-Page-Green'></a> &nbsp;
 </div>
-
+<div align="center">
 <a href="https://song2yu.github.io/"><sup>1</sup>Songsong Yu</a> |
 <a href="https://scholar.google.com/citations?hl=zh-CN&user=dEm4OKAAAAAJ&view_op=list_works"><sup>2</sup> Yuxin Chen</a> |
 <a href="https://scholar.google.com/citations?user=ysXmZCMAAAAJ&hl=zh-CN&oi=ao"><sup>3</sup>Zeke Xie</a> |
@@ -19,4 +19,7 @@
 <sup>2</sup>ARC Lab, Tencent PCG
 <sup>3</sup>The Hong Kong University of Science and Technology (Guangzhou)
 
+CVPR 2025
+
+</div>
 stereo conversion
