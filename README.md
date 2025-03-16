@@ -31,8 +31,8 @@ To address these challenges, we introduce the Mono2Stereo dataset, which provide
 2. Mainstream methods adopt either a one-stage left-to-right generation approach or a warp-and-inpaint pipeline, facing challenges of degraded stereo effect and image distortion, respectively.
 <br>
 Based on these findings, we introduce a new evaluation metric, Stereo Intersection-over-Union (Stereo IoU), which prioritizes disparity and achieves a high correlation with human judgments on stereo effect. Additionally, we propose a strong baseline model that harmonizes stereo effect and image quality simultaneously.
-![teaser](assets/imgs/teaser.png)
 
+ <img src="assets/imgs/teaser.png" alt="teaser" width="200px"> 
 
 
 ## 📢 News
