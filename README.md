@@ -49,6 +49,11 @@ The inference code was tested on:
 - Python 3.8.20,  CUDA 12.1
 
 ## 📦 Usage
+**Preparation**
+You can download our model [weights](https://mono2stereo-bench.github.io/) to perform inference.
+
+
+
 **Installation**
 
 Clone the repository (requires git):
