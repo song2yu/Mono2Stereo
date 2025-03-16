@@ -78,3 +78,16 @@ python run.py --encoder <vits | vitb | vitl> --img-path <img-directory | single-
 ```
 
 
+## Citation
+
+If you find this project useful, please consider citing:
+
+```bibtex
+@inproceedings{depthanything,
+      title={Depth Anything: Unleashing the Power of Large-Scale Unlabeled Data}, 
+      author={Yang, Lihe and Kang, Bingyi and Huang, Zilong and Xu, Xiaogang and Feng, Jiashi and Zhao, Hengshuang},
+      booktitle={CVPR},
+      year={2024}
+}
+```
+
