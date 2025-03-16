@@ -21,20 +21,8 @@
 
 CVPR 2025
 
-</div>
-With the rapid proliferation of 3D devices and the shortage of 3D content, stereo conversion is attracting increasing attention. Recent works have introduced pretrained Diffusion Models (DMs) into this task. However, due to the scarcity of large-scale training data and comprehensive benchmarks, the optimal methodologies for employing DMs in stereo conversion and the accurate evaluation of stereo effects remain largely unexplored.
 <br>
-To address these challenges, we introduce the Mono2Stereo dataset, which provides high-quality training data and benchmarks to support in-depth exploration of stereo conversion. Through empirical studies using this dataset, we have identified two primary findings:
-<br>
-1. The differences between the left and right views are subtle, yet existing metrics consider overall pixels, failing to focus on regions critical to stereo effects.
-<br>
-2. Mainstream methods adopt either a one-stage left-to-right generation approach or a warp-and-inpaint pipeline, facing challenges of degraded stereo effect and image distortion, respectively.
-<br>
-Based on these findings, we introduce a new evaluation metric, Stereo Intersection-over-Union (Stereo IoU), which prioritizes disparity and achieves a high correlation with human judgments on stereo effect. Additionally, we propose a strong baseline model that harmonizes stereo effect and image quality simultaneously.
-<br>
-With the rapid growth of 3D devices and a shortage of 3D content, stereo conversion is gaining attention. Recent studies have introduced pretrained Diffusion Models (DMs) for this task, but the lack of large-scale training data and comprehensive benchmarks has hindered optimal methodologies and accurate evaluation.
-<br>
-To address these challenges, we introduce the Mono2Stereo dataset, providing high-quality training data and benchmarks. Our empirical studies reveal:
+With the rapid growth of 3D devices and a shortage of 3D content, stereo conversion is gaining attention. Recent studies have introduced pretrained Diffusion Models (DMs) for this task, but the lack of large-scale training data and comprehensive benchmarks has hindered optimal methodologies and accurate evaluation. To address these challenges, we introduce the Mono2Stereo dataset, providing high-quality training data and benchmarks. Our empirical studies reveal:
 <br>
 1. Existing metrics fail to focus on critical regions for stereo effects.
 <br>
