@@ -40,12 +40,14 @@ We propose a new evaluation metric, Stereo Intersection-over-Union (Stereo IoU),
 </div>
 
 <br>
+
 ## 📢 News
 2025-03-16: [Project page](https://mono2stereo-bench.github.io/) and inference code (this repository) are released.<br>
 2025-02-27: Accepted to CVPR 2025. <br>
 
 
 <br>
+
 ## 🛠️ Setup
 
 The inference code was tested on:
@@ -53,6 +55,7 @@ The inference code was tested on:
 - Python 3.8.20,  CUDA 12.1
 
 <br>
+
 ## 📦 Usage
 **Preparation**
 <br>
@@ -60,6 +63,7 @@ You can download our model [weights](https://mono2stereo-bench.github.io/) to pe
 
 
 <br>
+
 **Installation**
 
 Clone the repository (requires git):
@@ -83,6 +87,7 @@ pip install -r requirements.txt
 python run.py --encoder <vits | vitb | vitl> --img-path <img-directory | single-img | txt-file> --outdir <outdir> [--pred-only] [--grayscale]
 ```
 <br>
+
 **Dataset**
 <br>
 We provide the data processing code in data_process.py. The video data can be downloaded from this [website](https://www.3donlinefilms.com/). 
@@ -95,6 +100,7 @@ We provide test data for fair comparison. Additionally, we recommend using the [
 we thank.....
 
 <br>
+
 ## Citation
 
 If you find this project useful, please consider citing:
