@@ -29,3 +29,20 @@ stereo conversion
 ## 📢 News
 2025-03-16: [Project page](https://mono2stereo-bench.github.io/) and inference code (this repository) are released.<br>
 2025-02-27: Accepted to CVPR 2025. <br>
+
+
+
+## 🛠️ Setup
+
+The inference code was tested on:
+
+- Python 3.10.6,  CUDA 12.1
+
+## 📦 Repository
+
+Clone the repository (requires git):
+
+```bash
+
+cd mono2stereo
+```
