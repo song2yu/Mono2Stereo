@@ -36,7 +36,7 @@ stereo conversion
 
 The inference code was tested on:
 
-- Python 3.10.6,  CUDA 12.1
+- Python 3.8.20,  CUDA 12.1
 
 ## 📦 Repository
 
@@ -50,8 +50,8 @@ cd mono2stereo
 create a Python native virtual environment and install dependencies into it:
 
 ```bash
-python -m venv venv/marigold
-source venv/marigold/bin/activate
+conda create -n stereo python=3.8 -y
+conda activate stereo
 pip install -r requirements.txt
 ```
 
