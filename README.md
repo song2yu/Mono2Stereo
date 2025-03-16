@@ -27,5 +27,5 @@ stereo conversion
 
 
 ## 📢 News
-2025-03-16: [Project page](https://mono2stereo-bench.github.io/) and inference code (this repository) are released.
+2025-03-16: [Project page](https://mono2stereo-bench.github.io/) and inference code (this repository) are released.<br>
 2025-02-27: Accepted to CVPR 2025. <br>
