@@ -46,3 +46,15 @@ Clone the repository (requires git):
 git clone https://github.com/song2yu/Mono2Stereo.git
 cd mono2stereo
 ```
+
+create a Python native virtual environment and install dependencies into it:
+
+```bash
+python -m venv venv/marigold
+source venv/marigold/bin/activate
+pip install -r requirements.txt
+```
+
+
+
+
