@@ -43,6 +43,6 @@ The inference code was tested on:
 Clone the repository (requires git):
 
 ```bash
-
+git clone https://github.com/song2yu/Mono2Stereo.git
 cd mono2stereo
 ```
