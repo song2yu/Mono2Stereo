@@ -18,8 +18,10 @@
 <sup>1</sup>Dalian University of Technology 
 <sup>2</sup>ARC Lab, Tencent PCG
 <sup>3</sup>The Hong Kong University of Science and Technology (Guangzhou)
-</div>
+ <br>
 CVPR 2025
+</div>
+
 
 <div align="left">
 <br>
