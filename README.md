@@ -50,6 +50,7 @@ The inference code was tested on:
 
 ## 📦 Usage
 **Preparation**
+<br>
 You can download our model [weights](https://mono2stereo-bench.github.io/) to perform inference.
 
 
