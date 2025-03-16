@@ -38,7 +38,8 @@ The inference code was tested on:
 
 - Python 3.8.20,  CUDA 12.1
 
-## 📦 Repository
+## 📦 Usage
+**Installation**
 
 Clone the repository (requires git):
 
@@ -55,6 +56,9 @@ conda activate stereo
 pip install -r requirements.txt
 ```
 
-
+**Inference**
+```bash
+python run.py --encoder <vits | vitb | vitl> --img-path <img-directory | single-img | txt-file> --outdir <outdir> [--pred-only] [--grayscale]
+```
 
 
