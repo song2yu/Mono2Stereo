@@ -77,7 +77,13 @@ pip install -r requirements.txt
 ```bash
 python run.py --encoder <vits | vitb | vitl> --img-path <img-directory | single-img | txt-file> --outdir <outdir> [--pred-only] [--grayscale]
 ```
+**Dataset**
+We provide the data processing code in data_process.py. The video data can be downloaded from this [website](https://www.3donlinefilms.com/). We provide test data for fair comparison. Additionally, we recommend using the [Inria 3DMovies](https://www.di.ens.fr/willow/research/stereoseg/) for model testing.
 
+
+
+## Acknowledgement
+we thank.....
 
 ## Citation
 
