@@ -34,30 +34,32 @@ With the rapid growth of 3D devices and a shortage of 3D content, stereo convers
 We propose a new evaluation metric, Stereo Intersection-over-Union (Stereo IoU), which prioritizes disparity and correlates well with human judgments. Additionally, we introduce a strong baseline model that balances stereo effect and image quality.
 </div>
 
-
+<br>
 <div align="center">
  <img src="assets/imgs/teaser.png" alt="teaser" width="1000px"> 
 </div>
 
+<br>
 ## 📢 News
 2025-03-16: [Project page](https://mono2stereo-bench.github.io/) and inference code (this repository) are released.<br>
 2025-02-27: Accepted to CVPR 2025. <br>
 
 
-
+<br>
 ## 🛠️ Setup
 
 The inference code was tested on:
 
 - Python 3.8.20,  CUDA 12.1
 
+<br>
 ## 📦 Usage
 **Preparation**
 <br>
 You can download our model [weights](https://mono2stereo-bench.github.io/) to perform inference.
 
 
-
+<br>
 **Installation**
 
 Clone the repository (requires git):
@@ -74,22 +76,25 @@ conda create -n stereo python=3.8 -y
 conda activate stereo
 pip install -r requirements.txt
 ```
+<br>
 
 **Inference**
 ```bash
 python run.py --encoder <vits | vitb | vitl> --img-path <img-directory | single-img | txt-file> --outdir <outdir> [--pred-only] [--grayscale]
 ```
+<br>
 **Dataset**
 <br>
 We provide the data processing code in data_process.py. The video data can be downloaded from this [website](https://www.3donlinefilms.com/). 
 <br>
 We provide test data for fair comparison. Additionally, we recommend using the [Inria 3DMovies](https://www.di.ens.fr/willow/research/stereoseg/) for model testing.
 
-
+<br>
 
 ## Acknowledgement
 we thank.....
 
+<br>
 ## Citation
 
 If you find this project useful, please consider citing:
