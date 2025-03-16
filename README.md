@@ -32,8 +32,9 @@ To address these challenges, we introduce the Mono2Stereo dataset, which provide
 <br>
 Based on these findings, we introduce a new evaluation metric, Stereo Intersection-over-Union (Stereo IoU), which prioritizes disparity and achieves a high correlation with human judgments on stereo effect. Additionally, we propose a strong baseline model that harmonizes stereo effect and image quality simultaneously.
 
+<div align="center">
  <img src="assets/imgs/teaser.png" alt="teaser" width="800px"> 
-
+</div>
 
 ## 📢 News
 2025-03-16: [Project page](https://mono2stereo-bench.github.io/) and inference code (this repository) are released.<br>
