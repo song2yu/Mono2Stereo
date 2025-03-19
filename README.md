@@ -59,7 +59,7 @@ The inference code was tested on:
 ## 📦 Usage
 **Preparation**
 <br>
-You can download our model [weights](https://mono2stereo-bench.github.io/) to perform inference.
+You can download our model [weights](https://pan.baidu.com/s/12cG1_o9G8qwkQLKm7B6XNQ?pwd=phns) to perform inference.
 
 
 <br>
