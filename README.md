@@ -92,7 +92,7 @@ python run.py --encoder <vits | vitb | vitl> --img-path <img-directory | single-
 <br>
 We provide the data processing code in data_process.py. The video data can be downloaded from this [website](https://www.3donlinefilms.com/). 
 <br>
-We provide [test data](https://www.3donlinefilms.com/) for fair comparison. Additionally, we recommend using the [Inria 3DMovies](https://www.di.ens.fr/willow/research/stereoseg/) for model testing.
+We provide [test data](https://pan.baidu.com/s/135vSm_ZqMrNA-qijVOvyhw?pwd=cej5) for fair comparison. Additionally, we recommend using the [Inria 3DMovies](https://www.di.ens.fr/willow/research/stereoseg/) for model testing.
 
 <br>
 
