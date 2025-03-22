@@ -97,7 +97,7 @@ We provide [test data](https://pan.baidu.com/s/135vSm_ZqMrNA-qijVOvyhw?pwd=cej5)
 <br>
 
 ## Acknowledgement
-we thank.....
+We would like to express our sincere gratitude to the open-source projects [depth anything](https://github.com/LiheYoung/Depth-Anything) and [Marigold](https://github.com/prs-eth/Marigold). This project is based on their code.
 
 <br>
 
