@@ -73,6 +73,10 @@ git clone https://github.com/song2yu/Mono2Stereo.git
 cd mono2stereo
 ```
 
+First, you need to download the weights of depth anything v2 from the 'depth/checkpoints/' folder, and also download the weights of the dual-condition baseline model from the 'checkpoint/' folder.
+
+
+
 create a Python native virtual environment and install dependencies into it:
 
 ```bash
