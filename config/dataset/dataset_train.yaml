@@ -1,0 +1,9 @@
+dataset:
+  train:
+    name: inria
+    disp_name: inria
+    dir: ''
+    filenames: /workspace/MyStereo/dataset/train_finetuning.txt # train_real_18w train_real_40w train_real_43w train_real_84w  train_mix_242w  train_real_133w
+    resize_to_hw:
+    - 480   # 480 640x360  
+    - 640   # 640 640x480  512x
