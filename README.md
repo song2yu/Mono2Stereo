@@ -73,7 +73,7 @@ git clone https://github.com/song2yu/Mono2Stereo.git
 cd mono2stereo
 ```
 
-First, you need to download the weights of depth anything v2 from the 'depth/checkpoints/' folder, and also download the weights of the dual-condition baseline model from the 'checkpoint/' folder.
+First, you need to download the weights of [depth anything v2-small](https://huggingface.co/spaces/LiheYoung/Depth-Anything/tree/main/checkpoints) to the 'depth/checkpoints/' folder, and also download the weights of the [dual-condition baseline model](https://pan.baidu.com/s/12cG1_o9G8qwkQLKm7B6XNQ?pwd=phns) to the 'checkpoint/' folder.
 
 
 
