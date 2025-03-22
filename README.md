@@ -88,7 +88,7 @@ pip install -r requirements.txt
 
 **Inference**
 ```bash
-python run.py --encoder <vits | vitb | vitl> --img-path <img-directory | single-img | txt-file> --outdir <outdir> [--pred-only] [--grayscale]
+python test.py
 ```
 <br>
 
