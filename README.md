@@ -2,7 +2,7 @@
 <div align="center">
  <img src="assets/imgs/logo.png" alt="logo" width="200px"> 
  <br>
- <a href='https://arxiv.org/abs/2409.02095'><img src='https://img.shields.io/badge/arXiv-2409.02095-b31b1b.svg'></a> &nbsp;
+ <a href='https://arxiv.org/submit/6316573/preview'><img src='https://img.shields.io/badge/arXiv-2409.02095-b31b1b.svg'></a> &nbsp;
  <a href='https://mono2stereo-bench.github.io/'><img src='https://img.shields.io/badge/Project-Page-Green'></a> &nbsp;
 </div>
 <div align="center">
