@@ -25,7 +25,7 @@ CVPR 2025
 
 <div align="left">
 <br>
-With the rapid growth of 3D devices and a shortage of 3D content, stereo conversion is gaining attention. Recent studies have introduced pretrained Diffusion Models (DMs) for this task, but the lack of large-scale training data and comprehensive benchmarks has hindered optimal methodologies and accurate evaluation. To address these challenges, we introduce the Mono2Stereo dataset, providing high-quality training data and benchmarks. Our empirical studies reveal:
+💡 With the rapid growth of 3D devices and a shortage of 3D content, stereo conversion is gaining attention. Recent studies have introduced pretrained Diffusion Models (DMs) for this task, but the lack of large-scale training data and comprehensive benchmarks has hindered optimal methodologies and accurate evaluation. To address these challenges, we introduce the Mono2Stereo dataset, providing high-quality training data and benchmarks. Our empirical studies reveal:
 <br>
 1. Existing metrics fail to focus on critical regions for stereo effects.
 <br>
