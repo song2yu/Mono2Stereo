@@ -23,7 +23,7 @@ class TestOptions(BaseOptions):
         parser.add_argument(
             '--weights', 
             type=str, 
-            default='/workspace/Mono2Stereo/checkpoint/mono2stereo.ckpt')
+            default='checkpoint/mono2stereo.ckpt')
         parser.add_argument(
             "--file_path",
             type=str,
