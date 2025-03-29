@@ -1,1 +1,1 @@
-
+you need to download the weights of depth anything v2-small to the 'depth/checkpoints/' folder
