@@ -29,9 +29,9 @@ class BaseOptions():
         parser.add_argument('--gpu_or_cpu',   type=str, default='gpu')
 
         parser.add_argument('--dataset',      type=str, default='nyudepthv2',
-                            choices=['nyudepthv2', 'kitti', 'inria_dataset'])
+                            choices=['nyudepthv2', 'kitti', 'mono2stereo'])
         parser.add_argument('--workers',      type=int, default=8)
-        parser.add_argument('--base_data_dir',   type=str, default='/group/40043/brucessyu/datasets/')
+        parser.add_argument('--base_data_dir',   type=str, default='/workspace/dataset/')
         parser.add_argument('--base_ckpt_dir',   type=str, default='checkpoint/')
         
         # depth configs
