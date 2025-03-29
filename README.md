@@ -64,7 +64,7 @@ You can download our model [weights](https://pan.baidu.com/s/12cG1_o9G8qwkQLKm7B
 
 <br>
 
-**Installation**
+**⚙️ Installation**
 
 Clone the repository (requires git):
 
@@ -86,13 +86,13 @@ pip install -r requirements.txt
 ```
 <br>
 
-**Inference**
+**🏃🏻‍♂️‍➡️ Inference**
 ```bash
 python test.py
 ```
 <br>
 
-**Dataset**
+**📊 Dataset**
 <br>
 We provide the data processing code in data_process.py. The video data can be downloaded from this [website](https://www.3donlinefilms.com/). 
 <br>
@@ -100,12 +100,12 @@ We provide [test data](https://pan.baidu.com/s/135vSm_ZqMrNA-qijVOvyhw?pwd=cej5)
 
 <br>
 
-## Acknowledgement
+## 🫂 Acknowledgement
 We would like to express our sincere gratitude to the open-source projects [depth anything](https://github.com/LiheYoung/Depth-Anything) and [Marigold](https://github.com/prs-eth/Marigold). This project is based on their code.
 
 <br>
 
-## Citation
+##🎓 Citation
 
 If you find this project useful, please consider citing:
 
