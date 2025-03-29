@@ -100,12 +100,6 @@ We provide the data processing code in data_process.py. The video data can be do
 We provide [test data](https://pan.baidu.com/s/135vSm_ZqMrNA-qijVOvyhw?pwd=cej5) for fair comparison. Additionally, we recommend using the [Inria 3DMovies](https://www.di.ens.fr/willow/research/stereoseg/) for model testing.
 
 <br>
-
-## 🫂 Acknowledgement
-We would like to express our sincere gratitude to the open-source projects [depth anything](https://github.com/LiheYoung/Depth-Anything) and [Marigold](https://github.com/prs-eth/Marigold). This project is based on their code.
-
-<br>
-
 ## 🎓 Citation
 
 If you find this project useful, please consider citing:
@@ -113,4 +107,11 @@ If you find this project useful, please consider citing:
 ```bibtex
 balabala
 ```
+<br>
+
+## 🫂 Acknowledgement
+We would like to express our sincere gratitude to the open-source projects [depth anything](https://github.com/LiheYoung/Depth-Anything) and [Marigold](https://github.com/prs-eth/Marigold). This project is based on their code.
+
+
+
 
