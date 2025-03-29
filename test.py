@@ -187,7 +187,7 @@ def main():
     left_path = args.file_path
     new_size = (1280, 800)
     left_image = Image.open(args.file_path).convert("RGB").resize(new_size)
-    right_path = args.file_path
+    right_path = args.file_path.replace('left', 'right')
     right_image = np.array(Image.open(right_path).convert("RGB").resize(new_size), dtype=np.uint8)
     rgb_left_norm = pil_to_tensor(left_image).unsqueeze(0)
     rgb_left_norm: torch.Tensor = (rgb_left_norm / 255.0 * 2.0 - 1.0).to(device)
@@ -222,6 +222,7 @@ def main():
         keep_mask = abs(keep_info - np.array(right_image)) > 5
         inpainted_pred[keep_mask] = right_to_save[keep_mask]
         left_for_test = np.array(left_image, dtype=np.uint8)
+        # compute metrics
         computed_result = metrics.eval_stereo(right_to_save, right_image, left_for_test)
         print(computed_result)
 
@@ -235,8 +236,9 @@ def main():
 
         # convert to image
         anaglyph_image = Image.fromarray(anaglyph_array)
-        anaglyph_image.save('sora.jpg')
-
+        anaglyph_image.save('ele.jpg')
+        
+ 
 
 if __name__ == '__main__':
     main()
