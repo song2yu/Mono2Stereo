@@ -33,7 +33,6 @@ from util.config_util import (
 from depth.depth_anything_v2.util.transform import MyResize, NormalizeImage, PrepareForNet
 
 
-os.chdir('/workspace/brucessyu/mono2stereo/')
 metric_name = ['rmse', 'mse', 'siou', 'psnr', 'ssim']
 
 
