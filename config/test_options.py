@@ -23,7 +23,7 @@ class TestOptions(BaseOptions):
         parser.add_argument(
             '--weights', 
             type=str, 
-            default='/workspace/log_dir/24_10_18-17_30_26_inria_dataset_500/epoch_170_last_18500_.ckpt')
+            default='/workspace/Mono2Stereo/checkpoint/mono2stereo.ckpt')
         parser.add_argument(
             "--file_path",
             type=str,
