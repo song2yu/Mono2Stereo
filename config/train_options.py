@@ -33,7 +33,7 @@ class TrainOptions(BaseOptions):
         parser.add_argument('--epochs',      type=int,   default=10)
         parser.add_argument('--initial_lr',          type=float, default=1e-5)        
         parser.add_argument('--log_dir', type=str, default='/group/40034/brucessyu/MyStereo/log_dir/')
-        parser.add_argument('--resume_run', type=str, default='/group/40034/brucessyu/MyStereo/log_dir/24_10_09-15_08_18_inria_dataset_3/epoch_3_last_150000_.ckpt') 
+        parser.add_argument('--resume_run', type=str, default='/workdir/') 
         parser.add_argument('--weight_decay', type=float, default=0.0)
         parser.add_argument('--accumulate_steps', type=int, default=1)
         # logging options
