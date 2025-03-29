@@ -27,17 +27,17 @@ class TestOptions(BaseOptions):
         parser.add_argument(
             "--file_path",
             type=str,
-            default='images/sora.png', 
+            default='images/left/000010938.jpg', 
         )
         parser.add_argument(
             "--base_path",
             type=str,
-            default='/group/40043/brucessyu/datasets/',
+            default='base_path',
         )
         parser.add_argument(
             "--out_dir",
             type=str,
-            default='/workspace/outputs/10_18-17dual/video/',
+            default='out_dir',
         )
 
         return parser
