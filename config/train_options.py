@@ -30,15 +30,15 @@ class TrainOptions(BaseOptions):
         default="config/train_stereo.yaml",
         help="Path to config file.",
         )
-        parser.add_argument('--epochs',      type=int,   default=10)
-        parser.add_argument('--initial_lr',          type=float, default=1e-5)        
-        parser.add_argument('--log_dir', type=str, default='/group/40034/brucessyu/MyStereo/log_dir/')
+        parser.add_argument('--epochs',      type=int,   default=2)
+        parser.add_argument('--initial_lr',          type=float, default=3e-5)        
+        parser.add_argument('--log_dir', type=str, default='log_dir/')
         parser.add_argument('--resume_run', type=str, default='/workdir/') 
         parser.add_argument('--weight_decay', type=float, default=0.0)
         parser.add_argument('--accumulate_steps', type=int, default=1)
         # logging options
         parser.add_argument('--encoder', type=str, default='vits')
-        parser.add_argument('--val_freq', type=int, default=100)
+        parser.add_argument('--val_freq', type=int, default=10000)
         parser.add_argument('--pro_bar', type=str2bool, default='False')
         parser.add_argument('--print_freq', type=int, default=10)
  
