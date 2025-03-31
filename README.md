@@ -2,7 +2,7 @@
 <div align="center">
  <img src="assets/imgs/logo.png" alt="logo" width="200px"> 
  <br>
- <a href='https://arxiv.org/submit/6316573/preview'><img src='https://img.shields.io/badge/arXiv-2409.02095-b31b1b.svg'></a> &nbsp;
+ <a href='https://arxiv.org/pdf/2503.22262'><img src='https://img.shields.io/badge/arXiv-2503.22262-b31b1b.svg'></a> &nbsp;
  <a href='https://mono2stereo-bench.github.io/'><img src='https://img.shields.io/badge/Project-Page-Green'></a> &nbsp;
 </div>
 <div align="center">
@@ -106,7 +106,15 @@ We provide [test data](https://pan.baidu.com/s/135vSm_ZqMrNA-qijVOvyhw?pwd=cej5)
 If you find this project useful, please consider citing:
 
 ```bibtex
-balabala
+@misc{yu2025mono2stereobenchmarkempiricalstudy,
+      title={Mono2Stereo: A Benchmark and Empirical Study for Stereo Conversion}, 
+      author={Songsong Yu and Yuxin Chen and Zhongang Qi and Zeke Xie and Yifan Wang and Lijun Wang and Ying Shan and Huchuan Lu},
+      year={2025},
+      eprint={2503.22262},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2503.22262}, 
+}
 ```
 <br>
 
