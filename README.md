@@ -20,7 +20,7 @@
 <sup>3</sup>The Hong Kong University of Science and Technology (Guangzhou)
  <br>
 CVPR 2025📖
-Project Lead🌟 Corresponding Athor ✉️
+Project Lead🌟 Corresponding Author ✉️
 </div>
 
 
