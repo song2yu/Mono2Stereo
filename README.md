@@ -74,7 +74,7 @@ git clone https://github.com/song2yu/Mono2Stereo.git
 cd mono2stereo
 ```
 
-First, you need to download the weights of [depth anything v2-small](https://huggingface.co/spaces/LiheYoung/Depth-Anything/tree/main/checkpoints) to the 'depth/checkpoints/' folder, and also download the weights of the [dual-condition baseline model](https://pan.baidu.com/s/12cG1_o9G8qwkQLKm7B6XNQ?pwd=phns) (or from [🤗](https://huggingface.co/Two-hot/Mono2Stereo/tree/main)) to the 'checkpoint/' folder.
+First, you need to download the weights of [depth anything v2-small](https://huggingface.co/spaces/LiheYoung/Depth-Anything/tree/main/checkpoints) to the 'depth/checkpoints/' folder, and also download the weights of the [dual-condition baseline model](https://pan.baidu.com/s/12cG1_o9G8qwkQLKm7B6XNQ?pwd=phns) (or from 🤗[mono2stereo.ckpt](https://huggingface.co/Two-hot/Mono2Stereo/tree/main)) to the 'checkpoint/' folder.
 
 
 
@@ -97,7 +97,7 @@ python test.py
 <br>
 We provide the data processing code in data_process.py. The video data can be downloaded from this [website](https://www.3donlinefilms.com/). 
 <br>
-We provide [test data](https://pan.baidu.com/s/135vSm_ZqMrNA-qijVOvyhw?pwd=cej5) for fair comparison. Additionally, we recommend using the [Inria 3DMovies](https://www.di.ens.fr/willow/research/stereoseg/) for model testing.
+We provide [test data](https://pan.baidu.com/s/135vSm_ZqMrNA-qijVOvyhw?pwd=cej5) (or from 🤗[mono2stereo-test.zip](https://huggingface.co/Two-hot/Mono2Stereo/tree/main)) for fair comparison. Additionally, we recommend using the [Inria 3DMovies](https://www.di.ens.fr/willow/research/stereoseg/) for model testing.
 
 <br>
 
