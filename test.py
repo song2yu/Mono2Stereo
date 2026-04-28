@@ -207,7 +207,7 @@ def main():
             processing_res=args.cfg.validation.processing_res,
             match_input_res=args.cfg.validation.match_input_res,
             generator=generator,
-            batch_size=1,  
+            batch_size=1,
             color_map=None,
             show_progress_bar=False,
             resample_method=args.cfg.validation.resample_method,
@@ -215,25 +215,33 @@ def main():
 
         right_pred: np.ndarray = pipe_out.right_pred
         right_to_save = pipe_out.right_visual
-        keep_info = np.array(left_image)
-        inpainted_pred = keep_info
-        # get inpainting mask
-        keep_mask = abs(keep_info - np.array(right_image)) > 5
+
+
+        keep_info = np.array(left_image).copy()
+
+        right_image_arr = np.array(right_image)
+        keep_mask = np.abs(
+            keep_info.astype(np.int16) - right_image_arr.astype(np.int16)
+        ) > 5
+        # ----------------------------------------------------------------
+
+        inpainted_pred = keep_info.copy() 
         inpainted_pred[keep_mask] = right_to_save[keep_mask]
+
         left_for_test = np.array(left_image, dtype=np.uint8)
+
         # compute metrics
         computed_result = metrics.eval_stereo(right_to_save, right_image, left_for_test)
         print(computed_result)
 
+        # ---------- Anaglyph ----------
         anaglyph_array = np.zeros_like(left_for_test)
-        # extract red channel
+        # red channel from left
         anaglyph_array[:, :, 0] = left_for_test[:, :, 0]
-
-        # extract blue and green
+        # green & blue from right
         anaglyph_array[:, :, 1] = right_to_save[:, :, 1]
         anaglyph_array[:, :, 2] = right_to_save[:, :, 2]
 
-        # convert to image
         anaglyph_image = Image.fromarray(anaglyph_array)
         anaglyph_image.save('ele.jpg')
         
