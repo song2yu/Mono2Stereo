@@ -33,7 +33,7 @@ dataloader:
 trainer:
   name: MarigoldTrainer #StereoTrainer
   training_noise_scheduler:
-    pretrained_path: stable-diffusion-2
+    pretrained_path: stabilityai/stable-diffusion-2-base
   init_seed: 2024  # use null to train w/o seeding
   save_period: 300
   backup_period: 300

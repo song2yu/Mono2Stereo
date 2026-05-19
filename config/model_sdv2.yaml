@@ -1,4 +1,4 @@
 model:
   name: stereo_pipeline
-  pretrained_path: stable-diffusion-2
+  pretrained_path: stabilityai/stable-diffusion-2-base
   latent_scale_factor: 0.18215

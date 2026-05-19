@@ -140,7 +140,7 @@ def main():
     depth_model.load_state_dict(torch.load(f'depth/checkpoints/depth_anything_v2_{args.encoder}.pth', map_location='cpu')) # Stereo/depth/checkpoint
     depth_model = depth_model.to(device).eval()
     _pipeline_kwargs = {'scale_invariant': True, 'shift_invariant': True}
-    painter = MarigoldPipeline.from_pretrained(os.path.join("stabilityai/stable-diffusion-2"), **_pipeline_kwargs).to(device)
+    painter = MarigoldPipeline.from_pretrained(os.path.join("stabilityai/stable-diffusion-2-base"), **_pipeline_kwargs).to(device)
     if 12 != painter.unet.config["in_channels"]:
         painter = _replace_unet_conv_in_12(painter, args)
     
